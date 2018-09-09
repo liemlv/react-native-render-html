@@ -46,9 +46,9 @@ export const IGNORED_TAGS = ['head', 'scripts', 'audio', 'video', 'track', 'embe
     'input', 'label', 'legend', 'meter', 'optgroup', 'option', 'output', 'progress', 'select', 'textarea', 'details', 'diaglog',
     'menu', 'menuitem', 'summary'];
 
-// As of react-native 0.48, this might change in the future
+// As of react-native 0.56, this might change in the future
 export const PERC_SUPPORTED_STYLES = [
-    'width', 'height',
+    'width', 'height', 'minWidth', 'minHeight',
     'top', 'bottom', 'left', 'right',
     'margin', 'marginBottom', 'marginTop', 'marginLeft', 'marginRight', 'marginHorizontal', 'marginVertical',
     'padding', 'paddingBottom', 'paddingTop', 'paddingLeft', 'paddingRight', 'paddingHorizontal', 'paddingVertical'
