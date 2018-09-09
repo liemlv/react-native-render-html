@@ -256,6 +256,8 @@ export default class HTML extends PureComponent {
                 node = alteredNode || node;
             }
             const { type, attribs, name, parent } = node;
+            data = node.data;
+            children = node.children;
 
             if (alterData && data) {
                 const alteredData = alterData(node);
